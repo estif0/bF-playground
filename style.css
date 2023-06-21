@@ -12,10 +12,24 @@ textarea {
   height: 30px;
 }
 #editor {
-  width: 70%;
+  width: 65%;
   align-self: left;
 }
 #terminal {
   width: 30%;
   align-self: right;
+}
+#run {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  background-color: #1c8920;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+#run:hover {
+  background-color: #084e0b;
 }
