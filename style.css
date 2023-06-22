@@ -2,7 +2,7 @@
   --medium-blue: #144272;
 }
 body {
-  background-color: black;
+  background-color: #000;
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@ body {
   margin-bottom: 0;
 }
 header {
-  color: white;
+  color: #fff;
   padding: 15px;
   width: 100vw;
   height: 40px;
@@ -30,7 +30,7 @@ textarea {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 .left {
   width: 301px;
