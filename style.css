@@ -42,6 +42,7 @@ a {
   height: 500px;
   padding-top: 10px;
   padding-left: 20px;
+  padding-right: 20px;
   margin-left: 40px;
   flex-shrink: 0;
   background: var(--medium-blue);
@@ -49,8 +50,10 @@ a {
 }
 #terminal {
   width: 457px;
-  height: 508px;
+  height: 500px;
+  padding-top: 10px;
   padding-left: 20px;
+  padding-right: 20px;
   margin-left: 40px;
   align-self: right;
   align-content: right;
