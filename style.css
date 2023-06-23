@@ -22,6 +22,7 @@ header {
 textarea {
   resize: none;
   word-wrap: break-word;
+  color: #63ff55;
 }
 #logo {
   width: 30px;
@@ -46,7 +47,6 @@ a {
   margin-left: 40px;
   flex-shrink: 0;
   background: var(--medium-blue);
-  color: #63ff55;
 }
 #terminal {
   width: 457px;
