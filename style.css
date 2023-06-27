@@ -9,7 +9,8 @@ body {
 .container {
   margin-bottom: 0;
 }
-header {
+.left {
+  display: flex;
   color: #fff;
   padding: 15px;
   width: 100vw;
@@ -25,18 +26,17 @@ textarea {
   color: #63ff55;
 }
 #logo {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
 }
+
 a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
-}
-.left {
-  width: 301px;
-  height: 76px;
-  flex-shrink: 0;
+  padding-top: 5px;
+  margin-left: 10px;
 }
 #editor {
   width: 838px;
