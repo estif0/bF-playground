@@ -5,9 +5,7 @@ body {
   background-color: #000;
   margin: 0;
   padding: 0;
-}
-.container {
-  margin-bottom: 0;
+  overflow: hidden;
 }
 .left {
   display: flex;
