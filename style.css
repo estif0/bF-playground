@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: rgb(231, 231, 231);
 }
 a {
   text-decoration: none;
@@ -8,7 +7,7 @@ a {
   cursor: pointer;
 }
 nav {
-  background-color: #a2b6d2;
+  background-color: #b8b8b8;
   margin: 0;
   height: 4rem;
   width: 100vw;
@@ -46,7 +45,7 @@ textarea {
 #editor {
   margin-right: 2rem;
   padding: 1rem;
-  background-color: #112f4f;
+  background-color: #1d4167;
 }
 #terminal {
   padding: 1rem;
