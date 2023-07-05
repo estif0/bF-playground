@@ -4,19 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BF Playground</title>
     <link rel="stylesheet" href="style.css" />
+    <title>BF Playground</title>
   </head>
   <body>
-    <div class="left">
-      <span
-        ><img src="img/logo-w.png" alt="bf playground logo" id="logo"
-      /></span>
-      <a href="index.html"> BF Playground</a>
+    <nav>
+      <a href="index.html"
+        ><img src="img/logo-b.png" alt="BF Playgound Logo" id="bf-logo" />
+      </a>
+      <a href="index.html">
+        <h1>BF Playground</h1>
+      </a>
+      <a id="github-logo" href="https://github.com/estif0/bF-playground"
+        ><img src="img/GitHub.svg" alt="Github Logo"
+      /></a>
+    </nav>
+
+    <div class="container">
+      <textarea id="editor"></textarea
+      ><textarea id="terminal" readonly></textarea>
+      <button id="run">Run</button>
     </div>
-    <textarea type="text" id="editor" rows="10"></textarea>
-    <textarea id="terminal" rows="10" readonly></textarea>
-    <button type="submit" id="run">RUN</button>
     <script src="script.js"></script>
   </body>
 </html>

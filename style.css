@@ -1,71 +1,65 @@
-:root {
-  --medium-blue: #144272;
-}
 body {
-  background-color: #000;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  background-color: rgb(231, 231, 231);
 }
-.left {
-  display: flex;
-  color: #fff;
-  padding: 15px;
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+nav {
+  background-color: #a2b6d2;
+  margin: 0;
+  height: 4rem;
   width: 100vw;
-  height: 40px;
-  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   font-family: HeadlandOne;
-  background-color: #23292e;
-  margin-bottom: 30px;
+}
+nav h1 {
+  margin: 0;
+}
+img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+#bf-logo {
+  margin-left: 30px;
+  padding-bottom: 5px;
+}
+#github-logo {
+  margin-left: auto;
+  margin-right: 30px;
 }
 textarea {
   resize: none;
   word-wrap: break-word;
   color: #63ff55;
 }
-#logo {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  padding-top: 5px;
-  margin-left: 10px;
+.container {
+  padding: 2rem 2rem;
+  display: grid;
+  grid-template: 70vh / 70fr 30fr;
 }
 #editor {
-  width: 838px;
-  height: 500px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 40px;
-  flex-shrink: 0;
-  background: var(--medium-blue);
+  margin-right: 2rem;
+  padding: 1rem;
+  background-color: #112f4f;
 }
 #terminal {
-  width: 457px;
-  height: 500px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 40px;
-  align-self: right;
-  align-content: right;
-  background: var(--medium-blue);
+  padding: 1rem;
+  background-color: rgb(21, 19, 19);
 }
-#run {
-  display: inline-flex;
-  height: 46px;
-  padding: 10px 20px;
-  justify-content: center;
-  align-items: center;
+button {
+  width: 4rem;
+  height: 2rem;
+  margin: 0;
   gap: 10px;
   border-radius: 0 0 10px 10px;
-  background: #16a13e;
-  padding-left: 20px;
-  margin-left: 40px;
+  background: #47c83b;
+}
+button:hover {
+  background-color: #16a13e;
 }
